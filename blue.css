@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* h1 h2 h3 p{
+    font-family: "Varela Round", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+.navbar-brand img {
+    width: 30vh !important;
+    margin-right: 5px;
+}
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+    font-family: "Varela Round", sans-serif !important;
+    padding: 10px 30px;
+    color: wheat !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+.slider_section .detail-box h1 span {
+    font-family: "Varela Round", sans-serif !important;
+    color: wheat !important;
+}
+.slider_section .detail-box .btn-box a {
+    font-family: "Varela Round", sans-serif !important;
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: wheat !important;
+    color: black !important;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+@media (max-width: 992px) {
+    .slider_section {
+        background-size: cover;
+        background-position: left;
+    }
+}
+.about_section .detail-box a {
+    font-family: "Varela Round", sans-serif !important;
+    display: inline-block;
+    padding: 8px 35px;
+    background-color: wheat !important;
+    color: black !important;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.quote_section .box .btn-box a {
+    font-family: "Varela Round", sans-serif !important;
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: wheat !important;
+    color: black !important;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.client_section .client_detail {
+    padding: 25px 45px;
+    font-family: "Varela Round", sans-serif !important;
+    background-color: wheat !important;
+}
+.client_section .client_text p, .client_section .client_text blockquote {
+    font-family: "Varela Round", sans-serif !important;
+    margin: 0;
+    position: relative;
+    color: black !important;
+}
+.client_section .client_name h3 {
+    font-family: "Varela Round", sans-serif !important;
+    color: wheat !important;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.heading_container h2 {
+    font-family: "Varela Round", sans-serif !important;
+    font-weight: bold;
+    color: wheat !important;
+    padding: 3px 10px;
+    border-bottom: 1px solid #000000;
+}
+.client_section .client_name p {
+    color: wheat !important;
+}
+.faq {
+    background: #100420;
+    border-radius: 4px;
+    position: relative;
+  
+  }
+  .accordion-button.collapsed {
+    background-color: #e9ecef;
+    font-size: 16px;
+  }
+  .accordion-item {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-button {
+    background-color: #f8f9fa;
+    color: #212529;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .accordion-button:focus {
+    outline: none;
+  }
+  
+  .accordion-button.collapsed {
+    background-color: #e9ecef;
+  }
+  
+  .accordion-body {
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+  }
+.section-heading{
+    color: wheat;
+}  
+.section-sub-heading{
+    color: wheat;
+}
+.del-main {
+    /* Darker background with linear gradient */
+    background-image: linear-gradient(rgba(20, 9, 96, 0.7), rgba(20, 9, 96, 0.7)), url(/images/project.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+.del-new-one{
+    color: white;
+    font-size: 50px;
+}
+.del-des{
+        color: white;
+        font-size: 20px;
+}
